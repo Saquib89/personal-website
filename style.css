@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    font-family: 'Inconsolata', monospace;
+}
+section{height:350px;
+    padding-bottom: 450px;
+}
+.name-highlight{
+    color:rgb(219, 29, 61);
+    font-weight:bold;
+}
+h2{ 
+    font-size:40px;
+}
+#hello{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width:35%;
+    float:left;
+    margin-left:5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width:100%;
+}
+.link-button{
+    text-decoration: none;
+    background-color:rgb(206, 55, 80);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+    
+}
+.text{
+    padding-top: 200px;
+}
+#biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.pic{
+    padding-top: 150px;
+}
+
+#latest{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column{
+    float:left;
+    width:25%;
+    padding-left:2%;
+    margin-left: 5%;
+}
+.row::after{
+    content:"";
+    display:table;
+    clear: both;
+
+}
+
+
+
+h3{
+    font-size: 38px;
+    font-weight: 700;
+}
+h2.text-align{
+    text-align: center;
+}
+#foot{
+    background-image: url(images/footer-bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.client{
+    padding-top:1%;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+h5{
+    text-align: center;
+    color:dimgray;
+}
+.contact{
+    text-align: center;
+}
+h1.co-me{
+    text-align:center;
+
+}
+h1{
+    font-size:30px;
+}
